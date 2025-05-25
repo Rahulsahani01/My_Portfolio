@@ -253,21 +253,23 @@ nav {
     margin: 5px 0;
     transition: all var(--transition-default);
 }
-/* ===================== */
-/* SKILLS CAROUSEL STYLES */
+
 /* ===================== */
 /* SIMPLE INFINITE SCROLL */
 /* ===================== */
 
 #skills {
-    padding: 40px 20px;
-    background: #f9f9f9;
+    padding: 16vh 0;
+    background-color: #000000;
   }
   
   #skills h2 {
     text-align: center;
     margin-bottom: 30px;
     font-size: 1.8rem;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: bold;
   }
   
   .skills-carousel-container {
@@ -298,8 +300,9 @@ nav {
   
   .skill-label {
     margin-top: 8px;
-    font-size: 14px;
-    font-weight: 500;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
   }
   
   @keyframes scroll {
