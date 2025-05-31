@@ -317,7 +317,37 @@ nav {
   /* Pause animation on hover */
   .skills-carousel-container:hover .skills-carousel {
     animation-play-state: paused;
-  }/* ===================== */
+  }
+    /* ===================== */
+/* Projects */
+/* ===================== */
+#projects {
+    padding: 20px;
+  }
+  
+  .projects-heading {
+    text-align: center; /* Center the heading */
+    margin-bottom: 30px; /* Space below heading */
+    font-size: 2.5rem; /* Adjust size as needed */
+  }
+  
+  .projects-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  }
+  
+  .project-card {
+    background-color: red;
+    aspect-ratio: 1;
+    border-radius: 8px;
+  }
+  
+  
+  
+  
+  
+  /* ===================== */
 /* RESPONSIVE DESIGN */
 /* ===================== */
 @media (max-width: 768px) {
