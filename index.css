@@ -263,7 +263,7 @@ nav {
   background-color: #000000;
 }
 
-#skills h2 {
+#skills h1 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2.5rem;
@@ -453,7 +453,7 @@ nav {
   width: 100%;
 }
 
-h1 {
+#contact  h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   font-weight: bolder;
@@ -616,6 +616,15 @@ textarea {
     padding: 6px 12px;
     font-weight: 600;
     font-size: 0.95rem;
+  }
+  #skills h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .projects-heading {
+    margin-bottom: 10px;
+    font-size: 2rem;
+
   }
 }
 @media (max-width: 320px) {
