@@ -453,7 +453,7 @@ nav {
   width: 100%;
 }
 
-#contact  h1 {
+#contact h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   font-weight: bolder;
@@ -624,7 +624,6 @@ textarea {
   .projects-heading {
     margin-bottom: 10px;
     font-size: 2rem;
-
   }
 }
 @media (max-width: 320px) {
