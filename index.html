@@ -69,7 +69,7 @@
     <!-- About Section -->
     <section id="skills">
       <h2>Current Tech Stack</h2>
-      <div class="skills-carousel-container">
+      <div class="skills-carousel-container" id="skills-carousel-container">
         <ul class="skills-carousel">
           <li class="skill-item">
             <img
@@ -225,9 +225,7 @@
     <section id="projects">
       <h1 class="projects-heading">My Projects</h1>
       <div class="projects-container">
-        <div
-          class="project-card"
-        >
+        <div class="project-card">
           <img
             src="./upkritmainpage.png"
             alt="Project 1"
@@ -252,15 +250,8 @@
           </div>
         </div>
 
-        <div
-          class="project-card"
-          
-        >
-          <img
-          src="./teamsuite.png"
-            alt="Project 2"
-            class="project-image"
-          />
+        <div class="project-card">
+          <img src="./teamsuite.png" alt="Project 2" class="project-image" />
           <div class="project-content">
             <h3 class="project-title">Teamsuite</h3>
             <p class="project-description">
@@ -292,6 +283,43 @@
       </div>
     </div> -->
       </div>
+    </section>
+
+    <section id="contact">
+      <h1>Get In Touch</h1>
+      <p class="subtitle">
+        Have a project in mind or want to discuss opportunities? I'd love to
+        hear from you! <br>Reach out via the form below or connect with me on
+        LinkedIn. Let's build something great together.
+      </p>
+
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Please enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile</label>
+          <input type="tel" id="mobile" placeholder="Enter mobile" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
     </section>
     <script src="index.js"></script>
   </body>
